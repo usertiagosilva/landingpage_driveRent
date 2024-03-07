@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="Pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DriveRent | Aluguel de carros</title>
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- styles -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <!-- Menu de navegação -->
+    <div class="container">
+        <div class="navbar-container">
+            <nav>
+                <a href="#">
+                    <img src="img/logo.jpg" alt="DriveRent" class="logo">
+                </a>
+                <ul class="navbar-items">
+                    <li>
+                        <a href="#">Home</a>
+                    </li>
+                    <li>
+                        <a href="#">Aluguel de carros</a>
+                    </li>
+                    <li>
+                        <a href="#">Ofertas</a>
+                    </li>
+                    <li>
+                        <a href="#">Para empresas</a>
+                    </li>
+                    <li>
+                        <a href="#">Contato</a>
+                    </li>
+                    <li>
+                        <a href="#" class="default-btn">Login</a>
+                    </li>
+                </ul>
+            </nav>
+           
+        </div>
+        <!-- Banner principal -->
+        <main>
+            <div class="main-banner">
+                <h1>DriveRent</h1>
+                <p>A sua locadora de confiança. Seu caminho, nossa direção</p>
+            </div>
+            <!--Serviços -->
+            <section class="services-container">
+                <ul>
+                   <li>
+                    <i class="fas fa-shield"></i>
+                    <h3>Segurança</h3>
+                    <p>Curtir sua viagem, com tranquilidade e conforto!
+                    </p>
+                   </li>
+                   <li>
+                    <i class="fas fa-rocket"></i>
+                    <h3>Agilidade</h3>
+                    <p>Experiência 100% digital, evite filas e atrasos!</p>
+                   </li> 
+                   <li>
+                    <i class="fas fa-comments"></i>
+                    <h3>Suporte 24hrs</h3>
+                    <p>Como podemos te ajudar?
+                    </p>
+                   </li>  
+                </ul>
+            </section>
+            <!-- Seção de planos -->
+            <section class="car-container">
+                <h2>Planos e Carros em destaque</h2>
+                <p>Selecione o carro que atenda as suas necessidades</p>
+                <div class="plans-container">
+                    <div class="plan">
+                        <a href="#">
+                        <img src="img/mini-banner1.jpg" alt="Carro hatch">
+                        </a>
+                        <ul>
+                            <li class="plan-name">Básico</li>
+                            <li>HB20 2022</li>
+                            <li>1.0 Flex</li>
+                            <li>Ar condicionado</li>
+                            <li>Manual</li>
+                            <li class="plan-btn">Saber mais</li>
+                        </ul>
+                    </div>
+                    <div class="plan">
+                        <a href="#">
+                        <img src="img/mini-banner4.jpg" alt="Carro sedan">
+                        </a>
+                        <ul>
+                            <li class="plan-name">Confortável</li>
+                            <li>HB20S 2019</li>
+                            <li>1.6 Flex</li>
+                            <li>Ar condicionado</li>
+                            <li>Manual</li>
+                            <li class="plan-btn">Saber mais</li>
+                        </ul>
+                    </div>
+                    <div class="plan">
+                        <a href="#">
+                        <img src="img/mini-banner3.jpg" alt="Carro SUV">
+                        </a>
+                        <ul>
+                            <li class="plan-name">Suv Especial</li>
+                            <li>Citroen C4 Cactus</li>
+                            <li>1.6 Flex</li>
+                            <li>Ar condicionado</li>
+                            <li>Automático</li>
+                            <li class="plan-btn">Saber mais</li>
+                        </ul>
+                    </div>
+                    <div class="plan">
+                        <a href="#">
+                        <img src="img/mini-banner5.jpg" alt="Carro utilitario">
+                        </a>
+                        <ul>
+                            <li class="plan-name">Utilitários</li>
+                            <li>Saveiro 2022</li>
+                            <li>1.6 Flex</li>
+                            <li>Ar condicionado</li>
+                            <li>Manual</li>
+                            <li class="plan-btn">Saber mais</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+            <!-- Seção de busca -->
+            <section class="search-container"> 
+                <h2>Encontre uma agencia mais perto de você</h2>
+                <p>Rede de Agencias</p>
+                <form>
+                        <input type="text" name="agencia" id="agencia" placeholder="Digite aqui o pais, estado, cidade ou agencia desejada">
+                        <input type="submit" value="Procurar">
+                </form>  
+            </section>
+            <!-- Seção de duvidas -->
+            <section class="contact-container">
+                <h2>Duvidas ou sugestões?</h2>
+                <p>Envie sua mensagem, um especialista entrará em contato com você</p>
+                <form>
+                    <input type="text" name="name" id="name" placeholder="Seu nome">
+                    <input type="text" name="email" id="email" placeholder="Seu e-mail">
+                    <textarea name="message" id="message" placeholder="Descreva o que voce precisa ou a sua sugestão"></textarea>
+                    <input type="submit" value="Enviar">
+                </form>
+            </section>
+        </main>
+        <!-- Footer -->
+        <footer>
+           DriveRent @2024
+        </footer>
+    </div>
+</body>
+</html>
