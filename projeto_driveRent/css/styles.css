@@ -344,6 +344,10 @@ footer {
         overflow-x: hidden;
     }
 
+    .logo {
+        display: none;
+    }
+
     .navbar-items li {
         font-size: 12px;
         margin-left: 10px;
