@@ -76,15 +76,15 @@ p {
 
 .main-banner h1,
 .main-banner p {
-    color: #fff;
+    color: #e8e9ea;
     text-align: center;
     font-weight: bold;
-    text-shadow: #000 3px 2px 3px;
+    text-shadow: #000 4px 4px 4px;
    
 }
 
 .main-banner h1 {
-    font-size: 54px
+    font-size: 65px ;
 }
 
 .main-banner p {
@@ -94,6 +94,7 @@ p {
 /* Serviços */
 .services-container {
     padding: 8rem 0;
+    background-color: #eff1f5;
 }
 
 .services-container ul {
@@ -142,6 +143,7 @@ p {
 
 .car-container h2 {
     font-size: 36px;
+    padding: 20px;
 }
 
 .car-container p {
@@ -174,13 +176,12 @@ p {
 }
 
 .plan img {
-    width: 200px;
-    height: 200px;
+    width: 250px;
+    height: 250px;
     border-radius: 50%;
     text-align: center;
     line-height: 120px;
     margin: 0 auto -50px;
-    
     position: relative;
 }
 
@@ -349,8 +350,14 @@ footer {
     }
 
     .navbar-items li {
-        font-size: 10px;
-        margin-left: 10px;
+        text-align: center;
+        font-size: 12px;
+        margin-left: 4px;
+    }
+
+    #btn-login {
+        font-size: 8px;
+        margin-top: 0;
     }
     
     .main-banner p {
@@ -364,13 +371,13 @@ footer {
     .plans-container {
         flex-direction: column;
         width: 100%;
-        padding: 0 2rem;
+        padding: 1rem;
     }
 
     .plan {
         width: 100%;
         max-width: 100%;
-        margin-bottom: 15px;
+        margin-bottom: 50px;
     }
 
     .search-container h2 {

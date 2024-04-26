@@ -22,19 +22,16 @@
                         <a href="#">Home</a>
                     </li>
                     <li>
-                        <a href="#">Aluguel de carros</a>
+                        <a href="#aluguel-carros">Aluguel de carros</a>
                     </li>
                     <li>
-                        <a href="#">Ofertas</a>
+                        <a href="#ofertas">Ofertas</a>
                     </li>
                     <li>
-                        <a href="#">Para empresas</a>
+                        <a href="#contato">Contato</a>
                     </li>
                     <li>
-                        <a href="#">Contato</a>
-                    </li>
-                    <li>
-                        <a href="#" class="default-btn">Login</a>
+                        <a href="#" id="btn-login" class="default-btn">Login</a>
                     </li>
                 </ul>
             </nav>
@@ -69,7 +66,7 @@
                 </ul>
             </section>
             <!-- Seção de planos -->
-            <section class="car-container">
+            <section id="ofertas" class="car-container">
                 <h2>Planos e Carros em destaque</h2>
                 <p>Selecione o carro que atenda as suas necessidades</p>
                 <div class="plans-container">
@@ -128,11 +125,11 @@
                 </div>
             </section>
             <!-- Seção de busca -->
-            <section class="search-container"> 
+            <section id="aluguel-carros" class="search-container"> 
                 <h2>Encontre uma agência mais perto de você</h2>
                 <p>Rede de Agências</p>
                 <form>
-                        <input type="text" name="agencia" id="agencia" placeholder="Digite a cidade ou agência desejada">
+                        <input type="text" name="agencia" id="agencia" placeholder="Digite a cidade ou agência">
                         <input type="submit" value="Procurar">
                 </form>  
             </section>
@@ -140,7 +137,7 @@
             <section class="contact-container">
                 <h2>Duvidas ou sugestões?</h2>
                 <p>Envie sua mensagem, um especialista entrará em contato com você</p>
-                <form>
+                <form id="contato">
                     <input type="text" name="name" id="name" placeholder="Seu nome">
                     <input type="text" name="email" id="email" placeholder="Seu e-mail">
                     <textarea name="message" id="message" placeholder="Descreva o que voce precisa ou a sua sugestão"></textarea>
